@@ -13,7 +13,7 @@ pipeline {
 	                 }}
 		stage('Deployement'){
 			steps {
-				sh 'cp target/Netflix6.war /home/grras/appfiles/apache-tomcat-9.0.85'
+				sh 'cp target/Netflix6.war /home/grras/appfiles/apache-tomcat-9.0.85/webapps'
 				}}
 	}
 			
